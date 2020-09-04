@@ -12,3 +12,7 @@ The problem of detecting fake faces vs real/legitimate faces is treated as a bin
  5. Create a webplatform to access the liveness detection algorithm in an interactive manner.
 
 ## Working flow
+![alt text](https://github.com/sakethbachu/liveness_detection/blob/master/sample_liveness_data/Desc%20info/workflow.png "Logo Title Text 1")
+
+## Demo
+![alt text](https://github.com/sakethbachu/liveness_detection/blob/master/sample_liveness_data/Desc%20info/liveness.jpeg "Logo Title Text 1")
