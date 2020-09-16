@@ -27,7 +27,7 @@ The problem of detecting fake faces vs real/legitimate faces is treated as a bin
 ![alt text](https://github.com/sakethbachu/liveness_detection/blob/master/sample_liveness_data/Desc%20info/workflow.png "Logo Title Text 1")
 
 ## Demo
-![alt text](https://github.com/sakethbachu/liveness_detection/blob/master/sample_liveness_data/Desc%20info/liveness.jpeg "Logo Title Text 1")
+![alt text](https://github.com/sakethbachu/Face-Liveness-Detection/blob/master/sample_liveness_data/Desc%20info/livenessg.gif "Logo Title Text 1")
 
 ## Further work
 1. Gathering data having a larger set of ethnicity and different types of fake/spoofed photos.
