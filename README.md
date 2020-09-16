@@ -1,4 +1,6 @@
 # Face Liveness Detection
+![alt text](https://github.com/sakethbachu/Face-Liveness-Detection/blob/master/sample_liveness_data/Desc%20info/livenessg.gif "Logo Title Text 1")
+
 ---
 ## Description
 A deep-learning pipeline capable of spotting fake vs legitimate faces and performing anti-face spoofing in face recognition systems. It is built with the help of Keras, Tensorflow, and OpenCV. A sample dataset is uploaded in the sample_dataset_folder.
@@ -25,9 +27,6 @@ The problem of detecting fake faces vs real/legitimate faces is treated as a bin
 
 ## Working flow
 ![alt text](https://github.com/sakethbachu/liveness_detection/blob/master/sample_liveness_data/Desc%20info/workflow.png "Logo Title Text 1")
-
-## Demo
-![alt text](https://github.com/sakethbachu/Face-Liveness-Detection/blob/master/sample_liveness_data/Desc%20info/livenessg.gif "Logo Title Text 1")
 
 ## Further work
 1. Gathering data having a larger set of ethnicity and different types of fake/spoofed photos.
