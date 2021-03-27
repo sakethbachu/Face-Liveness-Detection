@@ -186,11 +186,11 @@ while True:
             cv2.rectangle(frame, (startX, startY), (endX, endY),
 				  (0, 0, 255), 2)
  #showing the frames and waiting for the key to be pressed
-cv2.imshow("Frame", frame)
-    key = cv2.waitKey(1) & 0xFF
-    if key == ord("q"):
-        break
-cv2.destroyAllWindows()
+            cv2.imshow("Frame", frame)
+            key = cv2.waitKey(1) & 0xFF
+            if key == ord("q"):
+                break
+            cv2.destroyAllWindows()
 #vs.stop()
 
 
