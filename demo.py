@@ -40,8 +40,9 @@ net = cv2.dnn.readNetFromCaffe(protoPath, modelPath)
 # loading the liveness detecting module that was trained in the training python script
 print("loading the liveness detector")
 model = load_model(args["model"])
-le = pickle.loads(open(args["le"], "rb").read())
 
+with open(args["le"], 'rb') as f:
+    le = pickle.load(f)
 
 #determining the facial points that are plotted by dlib
 FULL_POINTS = list(range(0, 68))  
@@ -186,11 +187,11 @@ while True:
             cv2.rectangle(frame, (startX, startY), (endX, endY),
 				  (0, 0, 255), 2)
  #showing the frames and waiting for the key to be pressed
-cv2.imshow("Frame", frame)
-    key = cv2.waitKey(1) & 0xFF
-    if key == ord("q"):
-        break
-cv2.destroyAllWindows()
+            cv2.imshow("Frame", frame)
+            key = cv2.waitKey(1) & 0xFF
+            if key == ord("q"):
+                break
+            cv2.destroyAllWindows()
 #vs.stop()
 
 
