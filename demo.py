@@ -40,8 +40,9 @@ net = cv2.dnn.readNetFromCaffe(protoPath, modelPath)
 # loading the liveness detecting module that was trained in the training python script
 print("loading the liveness detector")
 model = load_model(args["model"])
-le = pickle.loads(open(args["le"], "rb").read())
 
+with open(args["le"], 'rb') as f:
+    le = pickle.load(f)
 
 #determining the facial points that are plotted by dlib
 FULL_POINTS = list(range(0, 68))  
