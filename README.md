@@ -1,9 +1,9 @@
-# Face Liveness Detection
+# Face Liveness Detection (CRMNet)
 ![alt text](https://github.com/sakethbachu/Face-Liveness-Detection/blob/master/sample_liveness_data/Desc%20info/livenessg.gif "Logo Title Text 1")
 
 ---
 ## Description
-A deep-learning pipeline capable of spotting fake vs legitimate faces and performing anti-face spoofing in face recognition systems. It is built with the help of Keras, Tensorflow, and OpenCV. A sample dataset is uploaded in the sample_dataset_folder.
+CRMNet: A deep-learning pipeline capable of spotting fake vs legitimate faces and performing anti-face spoofing in face recognition systems. It is built with the help of Keras, Tensorflow, and OpenCV. A sample dataset is uploaded in the sample_dataset_folder.
 
 ## Method
 The problem of detecting fake faces vs real/legitimate faces is treated as a binary classification task. Basically, given an input image, we’ll train a Convolutional Neural Network capable of distinguishing real faces from fake/spoofed faces. There are 4 main steps involved in the task:
@@ -31,3 +31,6 @@ The problem of detecting fake faces vs real/legitimate faces is treated as a bin
 ## Further work
 1. Gathering data having a larger set of ethnicity and different types of fake/spoofed photos.
 2. Adding more heuristics to team up with deep-learning.
+
+## Disclaimer
+This work was done during my internship at [SimpleCRM, Nagpur](https://www.simplecrm.com/).
